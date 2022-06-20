@@ -8,13 +8,10 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    
     <style>
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
+        h2{
             font-family: "Montserrat", sans-serif
         }
 
@@ -30,7 +27,7 @@
         }
 
         .image-gallery>li {
-            flex-basis: 350px;
+            flex-basis: 340px;
             /* width: 350px; */
         }
 
@@ -50,6 +47,47 @@
         .hr.style1 {
             border-top: 1px solid #8c8b8b;
         }
+        /* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
     </style>
 
     <title>Our Work - Teranida Interior</title>
@@ -101,10 +139,20 @@
                         d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
                 </svg>
             </li>
-            <li><a class="text-sm text-gray-50 hover:text-gray-500" href="/contact.html">Contact</a></li>
+            <li>
+                <a class="text-sm text-gray-50 hover:text-gray-500" href="/contact.html">Contact</a>
+            </li>
             <li class="text-gray-300">
 
         </ul>
+        <!-- <div class="dropdown"> -->
+            <button class="dropdown; hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-gray-50 hover:bg-gray-100 text-sm text-gray-900 font-bold rounded-xl transition duration-200">Section</button>
+            <!-- <div class="dropdown-content">
+                <a href="#cafe">Cafe</a>
+                <a href="#hotel">Hotel</a>
+            </div> -->
+        <!-- </div> -->
+		
         <!-- <a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-gray-50 hover:bg-gray-100 text-sm text-gray-900 font-bold  rounded-xl transition duration-200" href="#">Sign In</a>
 		<a class="hidden lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-white font-bold rounded-xl transition duration-200" href="#">Sign up</a> -->
     </nav>
@@ -168,46 +216,51 @@
 
     <!-- sepuru 640 416-->
     
-    <div class="container">
-        <h2 class="text-grey" style="margin-top: 2px;margin-left: 50px; margin-bottom: 15px;">Sepuru Coffee</h2>
-        <!-- heading text -->
-        <ul class="image-gallery">
-            <li>
-                <img src="/images/Cafe/Sepuru Coffee/Cafe LG - 1.jpg" alt="" />
-            </li>
-            <li>
-                <img src="/images/Cafe/Sepuru Coffee/Cafe LG - 2.jpg" alt="" />
-            </li>
-            <li>
-                <img src="/images/Cafe/Sepuru Coffee/Ruko - 1.jpg" alt="" />
-            </li>
-            <li>
-                <img src="/images/Cafe/Sepuru Coffee/Ruko - 2.jpg" alt="" />
-            </li>
-        </ul>
-    </div>
-    <br>
-    
+    <!-- <div id="cafe"> -->
 
-    <br>
-    <hr class="style1">
-    <br>
-    <!-- djava -->
-    <h2 class="text-grey" style="margin-top: 2px;margin-left: 50px; margin-bottom: 15px;">D_Java</h2>
-    <div class="container">
-        <!-- heading text -->
-        <ul class="image-gallery">
-            <li>
-                <img src="/images/Cafe/D_Java/Cafe Cinere -1.jpg" alt="" />
-            </li>
-            <li>
-                <img src="/images/Cafe/D_Java/Cafe Cinere -2.jpg" alt="" />
-            </li>
-            <li>
-                <img src="/images/Cafe/D_Java/Cafe Cinere -3.jpg" alt="" />
-            </li>
-        </ul>
-    </div>
+        <div class="container">
+            <h2 class="text-grey" style="margin-top: 2px;margin-left: 50px; margin-bottom: 15px;">Sepuru Coffee</h2>
+            <!-- heading text -->
+            <ul class="image-gallery">
+                <li>
+                    <img src="/images/Cafe/Sepuru Coffee/Cafe LG - 1.jpg" alt="" />
+                </li>
+                <li>
+                    <img src="/images/Cafe/Sepuru Coffee/Cafe LG - 2.jpg" alt="" />
+                </li>
+                <li>
+                    <img src="/images/Cafe/Sepuru Coffee/Ruko - 1.jpg" alt="" />
+                </li>
+                <li>
+                    <img src="/images/Cafe/Sepuru Coffee/Ruko - 2.jpg" alt="" />
+                </li>
+            </ul>
+        </div>
+        <br>
+        
+        
+        <br>
+        <hr class="style1">
+        <br>
+        <!-- djava -->
+        <h2 class="text-grey" style="margin-top: 2px;margin-left: 50px; margin-bottom: 15px;">D_Java</h2>
+        <div class="container">
+            <!-- heading text -->
+            <ul class="image-gallery">
+                <li>
+                    <img src="/images/Cafe/D_Java/Cafe Cinere -1.jpg" alt="" />
+                </li>
+                <li>
+                    <img src="/images/Cafe/D_Java/Cafe Cinere -2.jpg" alt="" />
+                </li>
+                <li>
+                    <img src="/images/Cafe/D_Java/Cafe Cinere -3.jpg" alt="" />
+                </li>
+            </ul>
+        </div>
+    <!-- </div> -->
+
+
 
     <br>
     <br>
