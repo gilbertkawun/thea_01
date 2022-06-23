@@ -80,3 +80,21 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+/**
+ * our work
+ * supaya dibuat per page untuk memudahkan navigasi
+ * 
+ * contact
+ * maps/gambar diberi shadow
+ * 
+ * navbar
+ * header ganti color ke putih tulang
+ * 
+ * basic color <<< dusty blue >>> teal >>> tosca >>> donker
+ * 
+ * home & our work
+ * banyak tulisan === warna gelap
+ * banyak galeri === warna terang
+ * 
+ */
