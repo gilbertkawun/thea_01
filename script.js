@@ -98,3 +98,17 @@ function showSlides(n) {
  * banyak galeri === warna terang
  * 
  */
+
+//  <div class="w3-main" style="padding-left:25px; padding-right: 25px;">
+
+//  <div class="w3-row w3-padding-64">
+//      <div class="w3-twothird w3-container" style="text-align:center">
+//          <font size="6" font-family="Consolas" color="white">When Beauty Meets Functionality</font>
+//          <br>
+//          <font size="4" color="white">With more than 15 years of experience from our top tier professional architect, we bring skillful craftsmenships into your home and project</font>
+//      </div>
+//      <br>
+//  </div>
+// </div>
+
+// background-color:rgb(199, 211, 224)
