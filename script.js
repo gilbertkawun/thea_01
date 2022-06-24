@@ -1,13 +1,3 @@
-// /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-// function myFunction() {
-//     var x = document.getElementById("myTopnav");
-//     if (x.className === "topnav") {
-//       x.className += " responsive";
-//     } else {
-//       x.className = "topnav";
-//     }
-//   }
-
 // Burger menus
 document.addEventListener('DOMContentLoaded', function() {
     // open
@@ -80,35 +70,3 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
-
-/**
- * our work
- * supaya dibuat per page untuk memudahkan navigasi
- * 
- * contact
- * maps/gambar diberi shadow
- * 
- * navbar
- * header ganti color ke putih tulang
- * 
- * basic color <<< dusty blue >>> teal >>> tosca >>> donker
- * 
- * home & our work
- * banyak tulisan === warna gelap
- * banyak galeri === warna terang
- * 
- */
-
-//  <div class="w3-main" style="padding-left:25px; padding-right: 25px;">
-
-//  <div class="w3-row w3-padding-64">
-//      <div class="w3-twothird w3-container" style="text-align:center">
-//          <font size="6" font-family="Consolas" color="white">When Beauty Meets Functionality</font>
-//          <br>
-//          <font size="4" color="white">With more than 15 years of experience from our top tier professional architect, we bring skillful craftsmenships into your home and project</font>
-//      </div>
-//      <br>
-//  </div>
-// </div>
-
-// background-color:rgb(199, 211, 224)
